@@ -1,0 +1,24 @@
+{
+  "originHash" : "a1ba440e92e12023bb54e4c1f39beba2574681c0b6ccd5ad46ba061e8dbd2663",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "alamofirerssparser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AdeptusAstartes/AlamofireRSSParser.git",
+      "state" : {
+        "revision" : "cec8b07ee1410a52dc34bf1618c4d664e779e80c",
+        "version" : "4.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

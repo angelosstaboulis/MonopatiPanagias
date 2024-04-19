@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6820E112BD1958F00A388CF /* Mitropoli.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6820E102BD1958F00A388CF /* Mitropoli.swift */; };
+		D6851EAA2BD1BD9C005887C5 /* Ierapostoli.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EA92BD1BD9C005887C5 /* Ierapostoli.swift */; };
+		D6851EAC2BD1BF61005887C5 /* Galanakis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EAB2BD1BF61005887C5 /* Galanakis.swift */; };
+		D6851EB02BD1C097005887C5 /* RSSFeedMonopati.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EAF2BD1C097005887C5 /* RSSFeedMonopati.swift */; };
+		D6851EB32BD1C0D3005887C5 /* ViewModelMonopati.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EB22BD1C0D3005887C5 /* ViewModelMonopati.swift */; };
+		D6851EB62BD1C106005887C5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EB52BD1C106005887C5 /* APIManager.swift */; };
+		D6851EB92BD1C132005887C5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = D6851EB82BD1C132005887C5 /* Alamofire */; };
+		D6851EBC2BD1C1A9005887C5 /* AlamofireRSSParser in Frameworks */ = {isa = PBXBuildFile; productRef = D6851EBB2BD1C1A9005887C5 /* AlamofireRSSParser */; };
+		D6851EBE2BD1C6F6005887C5 /* ListNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EBD2BD1C6F6005887C5 /* ListNews.swift */; };
+		D6851EC02BD1CBA0005887C5 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EBF2BD1CBA0005887C5 /* Activities.swift */; };
+		D6851EC22BD1CF47005887C5 /* Thermides.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EC12BD1CF47005887C5 /* Thermides.swift */; };
+		D6851EC42BD1D2E0005887C5 /* Diadromi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EC32BD1D2E0005887C5 /* Diadromi.swift */; };
+		D6851EC72BD1D2FD005887C5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6851EC62BD1D2FD005887C5 /* Helper.swift */; };
+		D68829E52BD3182E00905768 /* WebVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68829E42BD3182E00905768 /* WebVideo.swift */; };
+		D69DEBD02BD26AE900458AB9 /* Xronometro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69DEBCF2BD26AE900458AB9 /* Xronometro.swift */; };
+		D69E6B262BD0F28000E8FA21 /* MonopatiPanagiasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B252BD0F28000E8FA21 /* MonopatiPanagiasApp.swift */; };
+		D69E6B282BD0F28000E8FA21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B272BD0F28000E8FA21 /* ContentView.swift */; };
+		D69E6B2A2BD0F28200E8FA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69E6B292BD0F28200E8FA21 /* Assets.xcassets */; };
+		D69E6B2D2BD0F28200E8FA21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69E6B2C2BD0F28200E8FA21 /* Preview Assets.xcassets */; };
+		D69E6B372BD0F28200E8FA21 /* MonopatiPanagiasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B362BD0F28200E8FA21 /* MonopatiPanagiasTests.swift */; };
+		D69E6B412BD0F28200E8FA21 /* MonopatiPanagiasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B402BD0F28200E8FA21 /* MonopatiPanagiasUITests.swift */; };
+		D69E6B432BD0F28200E8FA21 /* MonopatiPanagiasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B422BD0F28200E8FA21 /* MonopatiPanagiasUITestsLaunchTests.swift */; };
+		D69E6B502BD0F88B00E8FA21 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B4F2BD0F88B00E8FA21 /* SideMenu.swift */; };
+		D69E6B532BD10BAD00E8FA21 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69E6B522BD10BAD00E8FA21 /* Contact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69E6B332BD0F28200E8FA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69E6B1A2BD0F28000E8FA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69E6B212BD0F28000E8FA21;
+			remoteInfo = MonopatiPanagias;
+		};
+		D69E6B3D2BD0F28200E8FA21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69E6B1A2BD0F28000E8FA21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69E6B212BD0F28000E8FA21;
+			remoteInfo = MonopatiPanagias;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6820E102BD1958F00A388CF /* Mitropoli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mitropoli.swift; sourceTree = "<group>"; };
+		D6851EA92BD1BD9C005887C5 /* Ierapostoli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ierapostoli.swift; sourceTree = "<group>"; };
+		D6851EAB2BD1BF61005887C5 /* Galanakis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galanakis.swift; sourceTree = "<group>"; };
+		D6851EAD2BD1C042005887C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D6851EAF2BD1C097005887C5 /* RSSFeedMonopati.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedMonopati.swift; sourceTree = "<group>"; };
+		D6851EB22BD1C0D3005887C5 /* ViewModelMonopati.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelMonopati.swift; sourceTree = "<group>"; };
+		D6851EB52BD1C106005887C5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		D6851EBD2BD1C6F6005887C5 /* ListNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNews.swift; sourceTree = "<group>"; };
+		D6851EBF2BD1CBA0005887C5 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
+		D6851EC12BD1CF47005887C5 /* Thermides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thermides.swift; sourceTree = "<group>"; };
+		D6851EC32BD1D2E0005887C5 /* Diadromi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diadromi.swift; sourceTree = "<group>"; };
+		D6851EC62BD1D2FD005887C5 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		D68829E42BD3182E00905768 /* WebVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVideo.swift; sourceTree = "<group>"; };
+		D69DEBCF2BD26AE900458AB9 /* Xronometro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xronometro.swift; sourceTree = "<group>"; };
+		D69E6B222BD0F28000E8FA21 /* MonopatiPanagias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonopatiPanagias.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69E6B252BD0F28000E8FA21 /* MonopatiPanagiasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopatiPanagiasApp.swift; sourceTree = "<group>"; };
+		D69E6B272BD0F28000E8FA21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D69E6B292BD0F28200E8FA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D69E6B2C2BD0F28200E8FA21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D69E6B322BD0F28200E8FA21 /* MonopatiPanagiasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopatiPanagiasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69E6B362BD0F28200E8FA21 /* MonopatiPanagiasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopatiPanagiasTests.swift; sourceTree = "<group>"; };
+		D69E6B3C2BD0F28200E8FA21 /* MonopatiPanagiasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopatiPanagiasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69E6B402BD0F28200E8FA21 /* MonopatiPanagiasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopatiPanagiasUITests.swift; sourceTree = "<group>"; };
+		D69E6B422BD0F28200E8FA21 /* MonopatiPanagiasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonopatiPanagiasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D69E6B4F2BD0F88B00E8FA21 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		D69E6B522BD10BAD00E8FA21 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69E6B1F2BD0F28000E8FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6851EB92BD1C132005887C5 /* Alamofire in Frameworks */,
+				D6851EBC2BD1C1A9005887C5 /* AlamofireRSSParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E6B2F2BD0F28200E8FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E6B392BD0F28200E8FA21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6851EAE2BD1C087005887C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6851EAF2BD1C097005887C5 /* RSSFeedMonopati.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6851EB12BD1C0A9005887C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D6851EB22BD1C0D3005887C5 /* ViewModelMonopati.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D6851EB42BD1C0F8005887C5 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				D6851EB52BD1C106005887C5 /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D6851EC52BD1D2F0005887C5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D6851EC62BD1D2FD005887C5 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D69E6B192BD0F28000E8FA21 = {
+			isa = PBXGroup;
+			children = (
+				D69E6B242BD0F28000E8FA21 /* MonopatiPanagias */,
+				D69E6B352BD0F28200E8FA21 /* MonopatiPanagiasTests */,
+				D69E6B3F2BD0F28200E8FA21 /* MonopatiPanagiasUITests */,
+				D69E6B232BD0F28000E8FA21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69E6B232BD0F28000E8FA21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69E6B222BD0F28000E8FA21 /* MonopatiPanagias.app */,
+				D69E6B322BD0F28200E8FA21 /* MonopatiPanagiasTests.xctest */,
+				D69E6B3C2BD0F28200E8FA21 /* MonopatiPanagiasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69E6B242BD0F28000E8FA21 /* MonopatiPanagias */ = {
+			isa = PBXGroup;
+			children = (
+				D6851EC52BD1D2F0005887C5 /* Helper */,
+				D6851EB42BD1C0F8005887C5 /* APIManager */,
+				D6851EB12BD1C0A9005887C5 /* ViewModel */,
+				D6851EAE2BD1C087005887C5 /* Model */,
+				D6851EAD2BD1C042005887C5 /* Info.plist */,
+				D69E6B512BD10B0A00E8FA21 /* View */,
+				D69E6B252BD0F28000E8FA21 /* MonopatiPanagiasApp.swift */,
+				D69E6B292BD0F28200E8FA21 /* Assets.xcassets */,
+				D69E6B2B2BD0F28200E8FA21 /* Preview Content */,
+			);
+			path = MonopatiPanagias;
+			sourceTree = "<group>";
+		};
+		D69E6B2B2BD0F28200E8FA21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D69E6B2C2BD0F28200E8FA21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D69E6B352BD0F28200E8FA21 /* MonopatiPanagiasTests */ = {
+			isa = PBXGroup;
+			children = (
+				D69E6B362BD0F28200E8FA21 /* MonopatiPanagiasTests.swift */,
+			);
+			path = MonopatiPanagiasTests;
+			sourceTree = "<group>";
+		};
+		D69E6B3F2BD0F28200E8FA21 /* MonopatiPanagiasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D69E6B402BD0F28200E8FA21 /* MonopatiPanagiasUITests.swift */,
+				D69E6B422BD0F28200E8FA21 /* MonopatiPanagiasUITestsLaunchTests.swift */,
+			);
+			path = MonopatiPanagiasUITests;
+			sourceTree = "<group>";
+		};
+		D69E6B512BD10B0A00E8FA21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D69E6B272BD0F28000E8FA21 /* ContentView.swift */,
+				D69E6B4F2BD0F88B00E8FA21 /* SideMenu.swift */,
+				D69E6B522BD10BAD00E8FA21 /* Contact.swift */,
+				D6820E102BD1958F00A388CF /* Mitropoli.swift */,
+				D6851EA92BD1BD9C005887C5 /* Ierapostoli.swift */,
+				D6851EAB2BD1BF61005887C5 /* Galanakis.swift */,
+				D6851EBD2BD1C6F6005887C5 /* ListNews.swift */,
+				D6851EBF2BD1CBA0005887C5 /* Activities.swift */,
+				D6851EC12BD1CF47005887C5 /* Thermides.swift */,
+				D6851EC32BD1D2E0005887C5 /* Diadromi.swift */,
+				D69DEBCF2BD26AE900458AB9 /* Xronometro.swift */,
+				D68829E42BD3182E00905768 /* WebVideo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69E6B212BD0F28000E8FA21 /* MonopatiPanagias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69E6B462BD0F28200E8FA21 /* Build configuration list for PBXNativeTarget "MonopatiPanagias" */;
+			buildPhases = (
+				D69E6B1E2BD0F28000E8FA21 /* Sources */,
+				D69E6B1F2BD0F28000E8FA21 /* Frameworks */,
+				D69E6B202BD0F28000E8FA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonopatiPanagias;
+			packageProductDependencies = (
+				D6851EB82BD1C132005887C5 /* Alamofire */,
+				D6851EBB2BD1C1A9005887C5 /* AlamofireRSSParser */,
+			);
+			productName = MonopatiPanagias;
+			productReference = D69E6B222BD0F28000E8FA21 /* MonopatiPanagias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69E6B312BD0F28200E8FA21 /* MonopatiPanagiasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69E6B492BD0F28200E8FA21 /* Build configuration list for PBXNativeTarget "MonopatiPanagiasTests" */;
+			buildPhases = (
+				D69E6B2E2BD0F28200E8FA21 /* Sources */,
+				D69E6B2F2BD0F28200E8FA21 /* Frameworks */,
+				D69E6B302BD0F28200E8FA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69E6B342BD0F28200E8FA21 /* PBXTargetDependency */,
+			);
+			name = MonopatiPanagiasTests;
+			productName = MonopatiPanagiasTests;
+			productReference = D69E6B322BD0F28200E8FA21 /* MonopatiPanagiasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69E6B3B2BD0F28200E8FA21 /* MonopatiPanagiasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69E6B4C2BD0F28200E8FA21 /* Build configuration list for PBXNativeTarget "MonopatiPanagiasUITests" */;
+			buildPhases = (
+				D69E6B382BD0F28200E8FA21 /* Sources */,
+				D69E6B392BD0F28200E8FA21 /* Frameworks */,
+				D69E6B3A2BD0F28200E8FA21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69E6B3E2BD0F28200E8FA21 /* PBXTargetDependency */,
+			);
+			name = MonopatiPanagiasUITests;
+			productName = MonopatiPanagiasUITests;
+			productReference = D69E6B3C2BD0F28200E8FA21 /* MonopatiPanagiasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69E6B1A2BD0F28000E8FA21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D69E6B212BD0F28000E8FA21 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D69E6B312BD0F28200E8FA21 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D69E6B212BD0F28000E8FA21;
+					};
+					D69E6B3B2BD0F28200E8FA21 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D69E6B212BD0F28000E8FA21;
+					};
+				};
+			};
+			buildConfigurationList = D69E6B1D2BD0F28000E8FA21 /* Build configuration list for PBXProject "MonopatiPanagias" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69E6B192BD0F28000E8FA21;
+			packageReferences = (
+				D6851EB72BD1C132005887C5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				D6851EBA2BD1C1A9005887C5 /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */,
+			);
+			productRefGroup = D69E6B232BD0F28000E8FA21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69E6B212BD0F28000E8FA21 /* MonopatiPanagias */,
+				D69E6B312BD0F28200E8FA21 /* MonopatiPanagiasTests */,
+				D69E6B3B2BD0F28200E8FA21 /* MonopatiPanagiasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69E6B202BD0F28000E8FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E6B2D2BD0F28200E8FA21 /* Preview Assets.xcassets in Resources */,
+				D69E6B2A2BD0F28200E8FA21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E6B302BD0F28200E8FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E6B3A2BD0F28200E8FA21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69E6B1E2BD0F28000E8FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6851EC22BD1CF47005887C5 /* Thermides.swift in Sources */,
+				D6820E112BD1958F00A388CF /* Mitropoli.swift in Sources */,
+				D6851EC72BD1D2FD005887C5 /* Helper.swift in Sources */,
+				D6851EB32BD1C0D3005887C5 /* ViewModelMonopati.swift in Sources */,
+				D6851EB62BD1C106005887C5 /* APIManager.swift in Sources */,
+				D69E6B532BD10BAD00E8FA21 /* Contact.swift in Sources */,
+				D6851EAC2BD1BF61005887C5 /* Galanakis.swift in Sources */,
+				D6851EB02BD1C097005887C5 /* RSSFeedMonopati.swift in Sources */,
+				D69E6B502BD0F88B00E8FA21 /* SideMenu.swift in Sources */,
+				D69DEBD02BD26AE900458AB9 /* Xronometro.swift in Sources */,
+				D6851EC42BD1D2E0005887C5 /* Diadromi.swift in Sources */,
+				D6851EAA2BD1BD9C005887C5 /* Ierapostoli.swift in Sources */,
+				D6851EC02BD1CBA0005887C5 /* Activities.swift in Sources */,
+				D69E6B282BD0F28000E8FA21 /* ContentView.swift in Sources */,
+				D6851EBE2BD1C6F6005887C5 /* ListNews.swift in Sources */,
+				D69E6B262BD0F28000E8FA21 /* MonopatiPanagiasApp.swift in Sources */,
+				D68829E52BD3182E00905768 /* WebVideo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E6B2E2BD0F28200E8FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E6B372BD0F28200E8FA21 /* MonopatiPanagiasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69E6B382BD0F28200E8FA21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69E6B412BD0F28200E8FA21 /* MonopatiPanagiasUITests.swift in Sources */,
+				D69E6B432BD0F28200E8FA21 /* MonopatiPanagiasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69E6B342BD0F28200E8FA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69E6B212BD0F28000E8FA21 /* MonopatiPanagias */;
+			targetProxy = D69E6B332BD0F28200E8FA21 /* PBXContainerItemProxy */;
+		};
+		D69E6B3E2BD0F28200E8FA21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69E6B212BD0F28000E8FA21 /* MonopatiPanagias */;
+			targetProxy = D69E6B3D2BD0F28200E8FA21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D69E6B442BD0F28200E8FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D69E6B452BD0F28200E8FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69E6B472BD0F28200E8FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonopatiPanagias/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonopatiPanagias/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location Always Usage Description";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location Usage Monopati";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Usage ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MonopatiPanagias;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D69E6B482BD0F28200E8FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonopatiPanagias/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonopatiPanagias/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Location Always Usage Description";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Location Usage Monopati";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Location Usage ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MonopatiPanagias;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D69E6B4A2BD0F28200E8FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MonopatiPanagiasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonopatiPanagias.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonopatiPanagias";
+			};
+			name = Debug;
+		};
+		D69E6B4B2BD0F28200E8FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MonopatiPanagiasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonopatiPanagias.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonopatiPanagias";
+			};
+			name = Release;
+		};
+		D69E6B4D2BD0F28200E8FA21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MonopatiPanagiasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonopatiPanagias;
+			};
+			name = Debug;
+		};
+		D69E6B4E2BD0F28200E8FA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.template.MonopatiPanagiasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonopatiPanagias;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69E6B1D2BD0F28000E8FA21 /* Build configuration list for PBXProject "MonopatiPanagias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E6B442BD0F28200E8FA21 /* Debug */,
+				D69E6B452BD0F28200E8FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69E6B462BD0F28200E8FA21 /* Build configuration list for PBXNativeTarget "MonopatiPanagias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E6B472BD0F28200E8FA21 /* Debug */,
+				D69E6B482BD0F28200E8FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69E6B492BD0F28200E8FA21 /* Build configuration list for PBXNativeTarget "MonopatiPanagiasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E6B4A2BD0F28200E8FA21 /* Debug */,
+				D69E6B4B2BD0F28200E8FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69E6B4C2BD0F28200E8FA21 /* Build configuration list for PBXNativeTarget "MonopatiPanagiasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69E6B4D2BD0F28200E8FA21 /* Debug */,
+				D69E6B4E2BD0F28200E8FA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D6851EB72BD1C132005887C5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		D6851EBA2BD1C1A9005887C5 /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AdeptusAstartes/AlamofireRSSParser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6851EB82BD1C132005887C5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6851EB72BD1C132005887C5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		D6851EBB2BD1C1A9005887C5 /* AlamofireRSSParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6851EBA2BD1C1A9005887C5 /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */;
+			productName = AlamofireRSSParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D69E6B1A2BD0F28000E8FA21 /* Project object */;
+}

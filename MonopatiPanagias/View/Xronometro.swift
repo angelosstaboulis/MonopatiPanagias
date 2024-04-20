@@ -12,9 +12,9 @@ struct Xronometro: View {
     @State var hour:Int
     @State var minute:Int
     @State var seconds:Int
-    @State var hourShow:String
-    @State var minuteShow:String
-    @State var secondsShow:String
+    @State var hourShow:String = "0"
+    @State var minuteShow:String = "0"
+    @State var secondsShow:String = "0"
     @State var stopped:Bool
     var body: some View {
         NavigationStack{
@@ -43,13 +43,23 @@ struct Xronometro: View {
                     }
                 }
             }
-        }.onReceive(timer, perform: { _ in
+        }.onAppear(perform: {
+            hour = 0
+            minute = 0
+            seconds = 0
+            hourShow = String(hour)
+            minuteShow = String(minute)
+            secondsShow = String(seconds)
+        })
+        .onReceive(timer, perform: { _ in
             if seconds == 59 {
                 if  minute >= 59 {
                      hour = hour + 1
-                     hourShow = String(hour)
                      minute = 0
                      seconds = 0
+                     hourShow = String(hour)
+                     minuteShow = String(minute)
+                     secondsShow = String(secondsShow)
                 }
                 else{
                     minute = minute + 1
